@@ -20,7 +20,6 @@ export default class Speech extends Component {
   }
 
   componentDidMount() {
-    console.log(style);
     this.setButtonState("all", "none", "none", "none");
   }
 
